@@ -1,5 +1,4 @@
 import random as rnd
-from sys import exit
 
 #Created 2nd
 logo = '''
@@ -50,7 +49,7 @@ def play_game():
 
     #Generate the answer
     answer = generate_answer()
-    print(f'Pssst, the correct answer is {answer}')
+    #print(f'Pssst, the correct answer is {answer}')
 
     #Offer to choose the difficulty
     level = input('Choose a difficulty. Type \'easy\' or \'hard\':')
