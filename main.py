@@ -13,7 +13,7 @@ logo = '''
 
 #Created 3rd
 def generate_answer():
-    return rnd.randrange(1, 100)
+    return rnd.randint(1, 100)
 
 #Created 4th
 def guessing_chance(difficulty):
